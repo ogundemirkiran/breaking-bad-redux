@@ -1,0 +1,29 @@
+.my-masonry-grid {
+  display: flex;
+  margin-left: -20px; /* gutter size offset */
+}
+.my-masonry-grid_column {
+  border-left: 20px solid transparent; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  background: #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.my-masonry-grid_column > div :hover {
+  opacity: 0.9;
+  box-shadow: 5px 5px #a5a4a4;
+}
+.character {
+  width: 100%;
+}
+
+.charName {
+  padding: 10px 0;
+  font-size: 16px;
+  text-align: center;
+}

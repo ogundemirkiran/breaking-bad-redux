@@ -1,0 +1,15 @@
+.productItemStyle {
+  margin: auto;
+  padding: 5px;
+  text-align: left;
+}
+
+.quotesInfo {
+  float: right;
+  width: 10%;
+  padding: 10px;
+  font-size: large;
+  font-weight: 500;
+  border: 1px solid black;
+  margin: 20px 0;
+}
